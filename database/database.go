@@ -19,3 +19,7 @@ func Connect() (*gorm.DB, error) {
 	}
 	return db, nil
 }
+
+func Create(i **models.User) {
+
+}
